@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="app-name">
+                <h1>TMRO</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="taskinput-output">
+                <div class="task-input">
+                    <div class="inside-output">
+                        <div class="date-btn">
+                            <p id="innerTime" class="date">
+                                6/29/2024
+                            </p>
+                            <button id="btn_done">
+                                Done
+                            </button>
+                        </div>
+                        <div id="inner-tasklist"  class="inner-tasklist">
+                            <!-- <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p>
+                            <p class="task-margin">React App | 9: 00 - 12:00</p>
+                            <p class="task-margin">DSA Quition Solving | 7: 00 - 9:00</p> -->
+                        </div>
+                        
+                    </div>
+                    <div class="inside-input">
+                        <div class="date-input">
+                            <p>Date : </p>
+                            <input type="date" name="task-date" id="task-date">
+                        </div>
+                        <input type="text" name="task-body" id="task-body" placeholder="Your task..">
+                        <div class="start-time-input">
+                            <p>Start : </p>
+                            <input type="time" name="task-date" id="start-task">
+                        </div>
+                        <div class="end-time-input">
+                            <p>End : </p>
+                            <input type="time" name="task-date" id="end-task">
+                        </div>
+                        <div class="addBtn" id="addBTN">
+                            <button class="button-56">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="task-output" id="task-output">
+                    <!-- <div class="task-day">
+                        <p>6/29/2024</p>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                    </div>
+                    <div class="task-day">
+                        <p>6/29/2024</p>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                        <div class="task">
+                            <img src="Images/check.png" alt="check">
+                            <p>DSA Quition Solving | 7: 00 - 9:00 </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
